@@ -15,7 +15,6 @@ function Home() {
   return(
     <>
       <Hero />
-      <Startups />
       <Ecossystem />
       <About />
       <Team />
