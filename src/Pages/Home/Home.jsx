@@ -3,7 +3,6 @@ import './style.scss';
 
 import Header             from '../../Components/Header/Header';
 import Hero               from '../../Components/Hero/Hero';
-import Startups           from '../../Components/Startups/Startups';
 import Ecossystem         from '../../Components/Ecossystem/Ecossystem';
 import About              from '../../Components/About/About';
 import Team               from '../../Components/Team/Team';
