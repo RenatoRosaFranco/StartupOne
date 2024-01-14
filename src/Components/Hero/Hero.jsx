@@ -2,6 +2,8 @@ import React from 'react';
 import Logo from '../../Assets/Images/rocket.png'
 import './style.scss';
 
+import ScrollToTop from 'react-scroll-to-top';
+
 function Hero() {
   const subscriptionLink = 'https://google.com.br';
 
@@ -11,6 +13,8 @@ function Hero() {
 
   return(
     <section className='hero'>
+      <ScrollToTop smooth />
+
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">

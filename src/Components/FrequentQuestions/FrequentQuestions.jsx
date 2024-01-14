@@ -47,10 +47,10 @@ function FrequentQuestions() {
                 <p>Acompanhe as perguntas frequentes de nosso Hub.</p>
                 <br />
 
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                   {frequentQuestions.map((item, index) => (
-                    <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                      <div className="panel panel-default" key={index}>
+                    <div className="panel-group" key={index} id="accordion" role="tablist" aria-multiselectable="true">
+                      <div className="panel panel-default">
                         <div className="panel-heading" role="tab" id={`heading${index}`}>
                           <h4 className="panel-title">
                             <a
@@ -62,7 +62,7 @@ function FrequentQuestions() {
                               aria-controls={`#collapse${index}`}
                               style={{ textDecoration: 'none' }}
                             >
-                              <i class="fa-regular fa-circle-question" style={{ marginRight: 8 }}></i>
+                              <i className="fa-regular fa-circle-question" style={{ marginRight: 8 }}></i>
                               {item.question}
                             </a>
                           </h4>

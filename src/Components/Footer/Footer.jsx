@@ -46,29 +46,29 @@ function Footer() {
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/">
-                      <i class="fa-solid fa-chevron-right ico"></i>
+                      <i className="fa-solid fa-chevron-right ico"></i>
                       Home
                     </Link>
                   </li>
                   <li>
                     <Link to="/community">
-                      <i class="fa-solid fa-chevron-right ico"></i>
+                      <i className="fa-solid fa-chevron-right ico"></i>
                       Comunidade
                     </Link>
                   </li>
                   <li>
                     <Link to="/investors">
-                      <i class="fa-solid fa-chevron-right ico"></i>
+                      <i className="fa-solid fa-chevron-right ico"></i>
                       Investidores</Link>
                   </li>
                   <li>
                     <Link to={subscriptionLink}>
-                      <i class="fa-solid fa-chevron-right ico"></i>
+                      <i className="fa-solid fa-chevron-right ico"></i>
                       Edital de Seleção</Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <i class="fa-solid fa-chevron-right ico"></i>
+                      <i className="fa-solid fa-chevron-right ico"></i>
                       Termos de privacidade
                     </Link>
                   </li>
@@ -93,7 +93,7 @@ function Footer() {
                     return(
                       <li key={index}>
                         <a href={link.url} title={link.title}>
-                          <i class={link.icon_class} />
+                          <i className={link.icon_class} />
                         </a>
                       </li>
                     )
