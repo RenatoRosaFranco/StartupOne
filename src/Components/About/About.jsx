@@ -36,7 +36,10 @@ function About() {
 
                       <div class="tab-content">
                         <div role="tabpanel" className="tab-pane active" id="home"><br />
-                          <p>Investimos até <strong>R$ 150 mil</strong> em sua empresa ou ideia. <span className="bold">(analise detalhada)</span></p>
+                          <blockquote>
+                            Investimos até <strong>R$ 150 mil</strong> em sua empresa ou ideia.
+                            <span className="bold">(analise detalhada)</span>
+                          </blockquote>
                           <br/>
 
                           <h4 className='bold'>
