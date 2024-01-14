@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './style.scss';
 
 function Header() {
+  const subscriptionLink = 'https://google.com.br';
+
   return(
     <header className='header'>
       <nav className="navbar navbar-default">
@@ -28,7 +30,13 @@ function Header() {
             </ul>
 
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="#" className="btn btn-primary btn-inscreva-se">Se Inscreva!</a></li>
+              <li>
+                <Link
+                  to={subscriptionLink}
+                  className='btn btn-primary btn-signup'>
+                  Se Inscreva!
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

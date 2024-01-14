@@ -37,7 +37,7 @@ function FrequentQuestions() {
   ]
 
   return(
-    <section className="frequentQuestions">
+    <section id='faq' className="frequentQuestions">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
