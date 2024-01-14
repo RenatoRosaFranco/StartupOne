@@ -42,7 +42,7 @@ function Footer() {
               </div>
 
               <div className="col-md-9">
-                <h4 className="bold">Links Uteis</h4>
+                <h4 className="bold uppercase">Links Uteis</h4>
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/">
@@ -93,7 +93,7 @@ function Footer() {
                     return(
                       <li key={index}>
                         <a href={link.url} title={link.title}>
-                          <i className={link.icon_class} />
+                          <i className={`${link.icon_class} social-ico`} />
                         </a>
                       </li>
                     )
