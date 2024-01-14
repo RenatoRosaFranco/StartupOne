@@ -1,4 +1,5 @@
 import React from 'react';
+import startupImage from '../../Assets/Images/startup.jpeg';
 import './style.scss';
 
 function About() {
@@ -21,7 +22,7 @@ function About() {
                 <div className="col-md-10 col-md-offset-1">
                   <div className="row">
                     <div className='col-md-4'>
-                      <div className='jumbotron' style={{ height: 678}}/>
+                      <img src={startupImage} width={300} height={ 500 } />
                     </div>
 
                     <div className='col-md-8'>

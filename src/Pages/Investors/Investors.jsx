@@ -1,4 +1,5 @@
 import React from 'react';
+import investorImage from '../../Assets/Images/investor.jpeg'
 import './style.scss';
 
 function Investors() {
@@ -17,7 +18,7 @@ function Investors() {
                 <div className="col-md-10 col-md-offset-1">
                   <div className="row">
                     <div className='col-md-4'>
-                      <div className='jumbotron' style={{ height: 678}}/>
+                      <img src={investorImage} width={300} height={ 500 } />
                     </div>
 
                     <div className='col-md-8'>
