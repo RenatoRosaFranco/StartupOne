@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #EEE;
+
+  .bold
+  {
+    position: relative;
+    font-weight: bold;
+  }
+
+  ul > li {
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .ico {
+    margin-right: 8px;
+  }
+
+  .square {
+    position: relative;
+    font-weight: bold;
+  }
+}

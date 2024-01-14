@@ -1,0 +1,59 @@
+.team {
+  a {
+    color: black;
+    cursor: normal;
+    text-decoration: none;
+
+    &.over, &:hover {
+      cursor: pointer;
+      position: relative;
+    }
+  }
+
+  .title {
+    position: relative;
+    font-size: 38px;
+  }
+
+  .subtitle
+  {
+    position: relative;
+    font-size: 20px;
+  }
+
+  .team-block {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .investor-details {
+    bottom: 0px;
+    left: 15px;
+    width: 95%;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    position: absolute;
+    padding: 10px;
+  }
+
+  .investor-name {
+    position: relative;
+    font-weight: bold;
+    font-size: 26px
+  }
+
+  .investor-location {
+    position: relative;
+    color: gray;
+    font-size: 18px;
+  }
+
+  .investor-role {
+    position: relative;
+    color: gray;
+    font-size: 16px;
+  }
+}

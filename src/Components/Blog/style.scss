@@ -1,0 +1,22 @@
+.blog {
+  position: relative;
+  border: 1px solid #EEE;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .post-title {
+    position: relative;
+    font-weight: bold;
+  }
+
+  a {
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .ico {
+    position: relative;
+    margin-left: 5px;
+  }
+}

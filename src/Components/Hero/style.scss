@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  background-color: #FFF;
+  padding-top: 60px;
+  padding-bottom: 80px;
+
+  .hero-content {
+
+    bottom: -130px;
+  }
+
+  .title {
+    font-size: 56px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .brand {
+    color: gray;
+  }
+
+  .call-to-action {
+    position: relative;
+    width: 200px;
+  }
+}
